@@ -1,0 +1,77 @@
+body {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #background {
+    background-repeat: repeat;
+    height: 100%;
+    left: 0px; 
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .stretch {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .jumbotron {
+    min-height: 100%;
+    background-color:#1d1d1d;
+    margin: 0;
+  }
+  
+  /* Needed to keep progress bar in consistent position at bottom without fixing its position. Fixed does not work correctly with smaller media. */
+  #main-content {
+    min-height: 80vh;
+  }
+  
+  #title {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .btn-lg {
+    background: #383838;
+    border: solid .25rem #d1d1d1;
+    color:#fff;
+    font-size: 2em;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  .btn-lg:hover {
+    background: #c5b17a; 
+  }
+  
+  #start-btn, #restart-btn { 
+    margin-top: 15%;
+    width: 40%;
+    height:30%
+  }
+  
+  #choice-true, #choice-false {
+    margin-top: 3%;
+    width: 100%;
+  }
+  
+  #no, #yes {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  
+  #correct, #incorrect, #unanswered {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5%;
+  }
+  
+  #yes, #correct {
+    color: #3eb367;
+  }
+  
+  #no, #incorrect {
+    color: #d14b46;
+  }
